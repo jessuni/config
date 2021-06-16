@@ -1,0 +1,132 @@
+{
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "git.ignoreMissingGitWarning": true,
+  "editor.wordWrap": "on",
+  "cSpell.userWords": [
+    "Birdwatching"
+  ],
+  "files.trimTrailingWhitespace": true,
+  "editor.renderWhitespace": "boundary",
+  "files.insertFinalNewline": true,
+  "workbench.activityBar.visible": true,
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnPaste": true,
+  "workbench.colorTheme": "Solarized Light",
+  "editor.tokenColorCustomizations": {
+    "[Solarized Light]": {
+      "textMateRules": [
+        {
+          "name": "variable",
+          "scope": "variable.other",
+          "settings": {
+            "foreground": "#268bd2"
+          }
+        },
+        {
+          "name": "this",
+          "scope": "variable.language.this.js",
+          "settings": {
+            "foreground": "#3e92ce"
+          }
+        },
+        {
+          "name": "console",
+          "scope": "support.type.object.console.js",
+          "settings": {
+            "foreground": "#d33682",
+            "fontStyle": "bold",
+          }
+        },
+        {
+          "name": "builtInClass",
+          "scope": "support.class.builtin.js",
+          "settings": {
+            "foreground": "#cb4b16"
+          }
+        },
+        {
+          "name": "methods",
+          "scope": [
+            "entity.name.function.accessor.js",
+            "entity.name.function.method.js",
+            "entity.name.function.js"
+          ],
+          "settings": {
+            "foreground": "#6c71c4"
+          }
+        },
+        {
+          "name": "keyword",
+          "scope": [
+            "keyword.control.conditional.js",
+            "keyword.operator.new.js",
+            "keyword.control.flow.js",
+          ],
+          "settings": {
+            "fontStyle": "italic",
+          }
+        }
+      ]
+    }
+  },
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#d6d4b6",
+    "editor.selectionHighlightBackground": "#bbb68f",
+  },
+  "editor.semanticHighlighting.enabled": false,
+  "timeline.excludeSources": [
+    "git-history"
+  ],
+  "extensions.ignoreRecommendations": false,
+  "editor.formatOnSave": false,
+
+  // "[javascript]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+
+  // Prettier
+  "prettier.semi": false,
+  "prettier.singleQuote":true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 100,
+
+  //i18n-ally
+  "i18n-ally.displayLanguage": "en",
+  "i18n-ally.ignoredLocales": [],
+
+  // todo-tree
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text",
+    "background": "#eee",
+    "border-radius": "3px",
+    "opacity": 50,
+    "iconColour": "#e7ba2a"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+}
+
+
